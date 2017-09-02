@@ -1,6 +1,6 @@
 body {
     height: auto;
-    width: 300px;
+    width: auto;
     border: 1px;
 
 }
@@ -15,4 +15,16 @@ font-family: 'Roboto', sans-serif;
 font-weight: 300;    
 
 
+}
+
+a:before {
+    content: " ";
+    display: inline-block;
+    width: 10px
+    
+}
+
+a {
+    font-size: 15px;
+    color: firebrick;
 }
